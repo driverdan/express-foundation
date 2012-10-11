@@ -1,0 +1,21 @@
+{
+  "name": "SiteName",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app",
+    "test": "mocha --compilers coffee:coffee-script"
+  },
+  "dependencies": {
+    "express": "3.x",
+    "jade": "*",
+    "stylus": "*",
+    "coffee-script": "*",
+    "connect-assets": "*",
+    "nib": "*"
+  },
+  "devDependencies": {
+    "mocha": "1.5.x",
+    "chai": "*"
+  }
+}

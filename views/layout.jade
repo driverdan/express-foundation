@@ -1,0 +1,54 @@
+!!!
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    title Site Name
+
+    != css('foundation')
+    != css('general_foundicons')
+    != css('style')
+  body
+    nav.top-bar
+      ul
+        li.name
+          h1
+            a(href='/')
+              i.foundicon-home(title='home')
+              span Site Name
+      section
+        ul.right
+          li#loading
+            img(src='/img/loading.gif',width='32',height='32')
+          li.divider
+          li
+            a(href='#') Link 1
+          li
+            a(href='#') Link 2
+          li
+            a(href='#') Link 3
+
+    .main
+      block content
+
+    footer
+      .row
+        .four.columns
+          © 2012 Company Name
+        .eight.columns
+          ul.link-list.right
+            li
+              a(href='#') Link 1
+            li
+              a(href='#') Link 2
+            li
+              a(href='#') Link 3
+            li
+              a(href='#') Link 4
+            li
+              a(href='#') Link 5
+
+    != js('jquery-1.8.2.min')
+    != js('jquery.digits')
+    != js('underscore-min')
+    != js('backbone-min')
+    != js('script')
