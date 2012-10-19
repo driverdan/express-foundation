@@ -79,5 +79,6 @@ Directory / File Structure
       index.jade (Sample homepage content)
       layout.jade (Sample layout)
     app.coffee (Main app)
+    config.json (Sample config file for use with nconf)
     package.json (npm package file)
     README.md (this)
