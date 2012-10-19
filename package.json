@@ -12,7 +12,8 @@
     "stylus": "*",
     "coffee-script": "*",
     "connect-assets": "*",
-    "nib": "*"
+    "nib": "*",
+    "nconf": "*"
   },
   "devDependencies": {
     "mocha": "1.5.x",

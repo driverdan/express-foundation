@@ -17,6 +17,7 @@ Libraries
 robust CSS preprocessor
 * [nib](http://visionmedia.github.com/nib/) - CSS3 extensions for Stylus
 * [Connect-assets](https://github.com/TrevorBurnham/connect-assets) - Rails 3.1-style asset pipeline for Node.js
+* [nconf](https://github.com/flatiron/nconf) - Configuration management
 * [Mocha](http://visionmedia.github.com/mocha/) - Testing framework
 * [Chai](http://chaijs.com/) - BDD / TDD assertion library
 

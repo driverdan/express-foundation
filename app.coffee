@@ -7,9 +7,19 @@ require 'coffee-script'
 express = require 'express'
 routes = require './routes'
 path = require 'path'
+nconf = require 'nconf'
 
 # Nib adds Stylus sugar
 nib = require 'nib'
+
+##
+# Configuration
+#
+# Uses args, env vars, and finally config.json
+# To get conf values use `nconf.get 'name:of:vars'`
+##
+
+nconf.argv().env().file 'config.json'
 
 ##
 # Express setup
