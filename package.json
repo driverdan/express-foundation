@@ -16,7 +16,7 @@
     "nconf": "*"
   },
   "devDependencies": {
-    "mocha": "1.5.x",
+    "mocha": "*",
     "chai": "*"
   }
 }
